@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-template-rows: auto; /* Filas automáticas según el contenido */
+    gap: 0px; /* Espacio entre elementos */
+  }
+  
+  header {
+    color: white; /* Texto blanco para todos los headers */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header1 {
+    background-color: #1e5a20; /* Color de fondo verde para el primer encabezado */
+  }
+  
+  .header2 {
+    background-color: #3b683c; /* Color de fondo naranja para el segundo encabezado */
+  }

@@ -6,15 +6,36 @@
   }
   
   header {
-    color: white; /* Texto blanco para todos los headers */
+    color: rgb(15, 49, 32); /* Texto blanco para todos los headers */
     padding: 20px;
     text-align: center;
+    box-sizing: border-box;
   }
   
   .header1 {
-    background-color: #1e5a20; /* Color de fondo verde para el primer encabezado */
+    background-color: #1e5a20;
+    color: rgb(255, 255, 255); 
+   
+    font-size: 36px; /* Tamaño de la fuente */
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    
   }
   
   .header2 {
-    background-color: #3b683c; /* Color de fondo naranja para el segundo encabezado */
+    background-color: #3b683c; 
+    color: rgb(255, 255, 255); 
+    display: flex; /* Hacer que los enlaces sean elementos flexibles */
+    justify-content: center; 
+    align-items: center; /* Centrar verticalmente los enlaces */
+    padding: 10 20px; 
+    gap: 80px;
   }
+  .header2 a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+  .header2 a:hover {
+    color: #e74c3c; 
+  }
+  

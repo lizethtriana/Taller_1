@@ -35,3 +35,23 @@ body {
     text-shadow: 2px 2px 5px rgb(29, 146, 0);
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr; /* Una columna */
+    grid-template-rows: auto; /* Filas automáticas según el contenido */
+    gap: 0px; /* Espacio entre elementos */
+  }
+  
+  header {
+    color: rgb(35, 207, 199); /* Texto blanco para todos los headers */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header1 {
+    background-color: #14d11b; /* Color de fondo verde para el primer encabezado */
+  }
+  
+  .header2 {
+    background-color: #2090c4; /* Color de fondo naranja para el segundo encabezado */
+  }

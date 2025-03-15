@@ -1,3 +1,40 @@
+.imagen-con-texto {
+    position: relative;
+    display: inline-block;
+}
+
+.enlace {
+    display: block;  /* Hace que el enlace ocupe todo el espacio de su contenedor */
+}
+
+.imagen {
+    width: 50%;  /* Ajusta el tamaño de la imagen */
+    height: auto;
+     /* Elimina el espacio inferior que puede dejar la imagen */
+}
+
+.texto {
+    position: absolute;
+    top: 50%;  /* Ajusta la posición vertical del texto */
+    left: 50%;  /* Ajusta la posición horizontal del texto */
+    transform: translate(-50%, -50%);  /* Centra el texto */
+    color: white;  /* Color del texto */
+    font-size: 24px;  /* Tamaño del texto */
+    font-weight: bold;  /* Grosor del texto */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para mejorar la visibilidad */
+}
+body {
+    background-color: #303030;  
+    
+}
+.contenido{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(29, 146, 0);
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr; /* Una columna */

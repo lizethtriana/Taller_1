@@ -4,8 +4,10 @@
     text-align: center;
 }
 .texto1{
-    color: rgb(206, 19, 134);
+    color: rgb(48, 184, 218);
     font-size: 34px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .contenedor {
     position: relative;
@@ -19,7 +21,7 @@
 }
 
 .texto {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0px;
     left: 0px;
     transform: translate(0%, 0%);
@@ -27,7 +29,11 @@
     font-size: 34px;
     font-weight: bold;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 5px; 
     font-family: 'Courier New', Courier, monospace;
+}
+.texto2{
+    color: rgb(72, 61, 158);
+    font-size: 14px;
 }
 

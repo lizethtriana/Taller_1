@@ -1,0 +1,54 @@
+.contenido{
+    color: rgb(4, 3, 12);
+    font-size: 34px;
+    text-align: center;
+}
+.descripcion{
+    color: rgb(11, 3, 12);
+    font-size: 14px;
+    text-align: center;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    border: 8px solid black; /* Agrega un borde negro */
+    padding: 10px; /* Espacio entre el borde y la imagen */
+    margin: 50px;
+
+}
+.contenedor img{
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+.texto {
+    /* position: absolute; */
+    text-align: center;
+    top: 50%;  /* Ajusta la posición vertical del texto */
+    left: 50%;  /* Ajusta la posición horizontal del texto */
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+p a {
+    display: inline-block; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #007BFF; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-size: 26px; /* Tamaño del texto */
+    font-weight: bold; 
+    transition: "background" 0.3s ease-in-out, transform 0.2s; /* Efecto de animación */
+}
+
+p a:hover {
+    background-color: #c93caa; /* Cambia el color al pasar el mouse */
+    transform: scale(1.05); /* Hace un pequeño zoom */
+} 

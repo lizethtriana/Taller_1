@@ -1,39 +1,59 @@
-.textocentral{
-    color: rgb(4, 3, 12);
-    font-size: 34px;
+/* .textocentral{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     text-align: center;
-}
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+
+} */
 .texto1{
-    color: rgb(48, 184, 218);
+    color: rgb(0, 0, 0);
     font-size: 34px;
     text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 .contenedor {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh;
+    
 }
 
 .contenedor img {
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
 }
 
-.texto {
-    /* position: absolute; */
-    bottom: 0px;
-    left: 0px;
-    transform: translate(0%, 0%);
-    color: rgb(0, 0, 0);
-    font-size: 34px;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 5px; 
-    font-family: 'Courier New', Courier, monospace;
-}
+
 .texto2{
-    color: rgb(72, 61, 158);
+    color: rgb(228, 130, 223);
     font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(131, 192, 116);
+    
+
 }
 
+.texto3{
+    color: rgb(9, 6, 29);
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(131, 192, 116);
+}
+p a {
+    display: inline-block; 
+    text-decoration: none; 
+    color: white; 
+    background-color: #659bd4; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    font-size: 26px; /* Tamaño del texto */
+    font-weight: bold; 
+    transition: "background" 0.3s ease-in-out, transform 0.2s; /* Efecto de animación */
+}
+
+p a:hover {
+    background-color: #c93caa; /* Cambia el color al pasar el mouse */
+    transform: scale(1.05); /* Hace un pequeño zoom */
+} 

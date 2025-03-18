@@ -39,8 +39,9 @@
 p a {
     display: inline-block; 
     text-decoration: none; 
-    color: white; 
-    background-color: #007BFF; 
+    color: rgb(0, 0, 0); 
+    text-shadow: 2px 2px 5px rgb(136, 255, 255);
+    /* background-color: #007BFF;  */
     padding: 10px 15px; 
     border-radius: 5px; 
     font-size: 26px; /* Tamaño del texto */

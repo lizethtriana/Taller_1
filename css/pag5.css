@@ -20,8 +20,8 @@
 
 }
 .contenedor img{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     display: block;
     
 }
@@ -39,8 +39,9 @@
 p a {
     display: inline-block; 
     text-decoration: none; 
-    color: white; 
-    background-color: #00ff62; 
+    color: rgb(0, 0, 0); 
+    text-shadow: 2px 2px 5px rgb(136, 255, 255);
+    /* background-color: #00ff62;  */
     padding: 10px 15px; 
     border-radius: 5px; 
     font-size: 26px; /* Tamaño del texto */

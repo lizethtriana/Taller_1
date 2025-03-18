@@ -27,7 +27,7 @@
 
 
 .texto2{
-    color: rgb(228, 130, 223);
+    color: rgb(0, 0, 0);
     font-size: 14px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(131, 192, 116);
@@ -44,8 +44,9 @@
 p a {
     display: inline-block; 
     text-decoration: none; 
-    color: white; 
-    background-color: #659bd4; 
+    color: rgb(0, 0, 0); 
+    text-shadow: 2px 2px 5px rgb(136, 255, 255);
+    /* background-color: #659bd4;  */
     padding: 10px 15px; 
     border-radius: 5px; 
     font-size: 26px; /* Tamaño del texto */

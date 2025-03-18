@@ -50,7 +50,7 @@ body {
   background-image: url('../Imagenes/pexels-rethaferguson-3059541.jpg'); /* Coloca la ruta de tu imagen aquí */
   background-size: cover; /* Asegura que la imagen cubra toda la página */
   background-position: center; /* Centra la imagen en la página */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  /* background-repeat: no-repeat; Evita que la imagen se repita */
   margin: 0;
   padding: 0;
   height: 100vh; /* Asegura que el body tenga al menos la altura de la ventana del navegador */

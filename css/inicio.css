@@ -8,9 +8,11 @@
 }
 
 .imagen {
-    width: 300px;  
-    height: auto;
-     
+    filter: brightness(50%);  
+}
+.imagen2 {
+    border-radius: 50%; 
+    object-fit: cover;
 }
 
 .texto {
@@ -18,12 +20,24 @@
     top: 50%;  
     left: 50%;  
     transform: translate(-50%, -50%);  
-    color: rgb(204, 191, 168);  
+    color: rgb(255, 255, 255);  
     font-size: 50px;  
     font-weight: bold; 
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
+    font-family: 'MiFuente', sans-serif;
+}
+.titulo{
+    font-size: 35px; 
+    font-family: 'MiFuente', sans-serif;
+    color: rgb(255, 255, 255);
 }
 
+.titulo2{
+    font-size: 50px; 
+    font-family: 'MiFuente2', sans-serif;
+    color: rgb(0, 53, 20); 
+    margin-left: 200px;
+}
 .contenido{
 
     color: rgb(0, 53, 20);
@@ -43,3 +57,11 @@
     justify-content: flex-start; 
 }
 
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../recursos/KUNKARLOW.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'MiFuente2';
+    src: url('../recursos/Good-Lies.ttf') format('truetype'); 
+}

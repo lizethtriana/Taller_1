@@ -20,9 +20,13 @@
 }
 
 .contenedor img {
-    width: 50%;
-    height: auto;
-    display: block;
+    width: 80%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 10% / 10%; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 0.3s ease-in-out;
+    margin: 20px;
 }
 
 
@@ -31,7 +35,7 @@
     font-size: 14px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(131, 192, 116);
-    
+    font-family: fantasy;
 
 }
 
@@ -40,21 +44,22 @@
     font-size: 14px;
     text-align: center;
     text-shadow: 2px 2px 5px rgb(131, 192, 116);
+    font: small-caps 100%/200% serif;
 }
 p a {
     display: inline-block; 
     text-decoration: none; 
-    color: rgb(0, 0, 0); 
-    text-shadow: 2px 2px 5px rgb(136, 255, 255);
-    /* background-color: #659bd4;  */
+    background-color: #007bff;
+    color: rgb(247, 246, 246); 
     padding: 10px 15px; 
     border-radius: 5px; 
-    font-size: 26px; /* Tamaño del texto */
+    font-size: 26px; 
     font-weight: bold; 
-    transition: "background" 0.3s ease-in-out, transform 0.2s; /* Efecto de animación */
+    transition: "background" 0.3s ease-in-out, transform 0.2s; 
+    margin: 20px;
 }
 
 p a:hover {
-    background-color: #c93caa; /* Cambia el color al pasar el mouse */
-    transform: scale(1.05); /* Hace un pequeño zoom */
+    background-color: #c93caa; 
+    transform: scale(1.05);
 } 

@@ -11,19 +11,26 @@
 .contenedor{
     position: relative;
     display: inline-block;
-    width: 100%;
-    max-width: 500px;
+    width: 500px;
+    height: 300px;
+    /* max-width: 500px; */
     overflow: hidden;
-    border: 8px solid black; /* Agrega un borde negro */
     padding: 10px; /* Espacio entre el borde y la imagen */
     margin: 50px;
 
 }
 .contenedor img{
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
-    
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+    transition: transform 20s ease-in-out;
+}
+.contenedor:hover img{
+    transform: scale(1.1);
 }
 .texto {
     /* position: absolute; */
@@ -39,9 +46,7 @@
 p a {
     display: inline-block; 
     text-decoration: none; 
-    color: rgb(0, 0, 0); 
-    text-shadow: 2px 2px 5px rgb(136, 255, 255);
-    /* background-color: #007BFF;  */
+    color: rgb(255, 255, 255); 
     padding: 10px 15px; 
     border-radius: 5px; 
     font-size: 26px; /* Tamaño del texto */
@@ -50,6 +55,5 @@ p a {
 }
 
 p a:hover {
-    background-color: #c93caa; /* Cambia el color al pasar el mouse */
-    transform: scale(1.05); /* Hace un pequeño zoom */
+    transform: scale(1.05); 
 } 

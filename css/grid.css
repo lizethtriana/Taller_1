@@ -22,7 +22,10 @@
     align-items: center; 
     padding: 20 20px;
     font-family: 'MiFuente', sans-serif;
-  
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    
     
   }
   .header2 a {
@@ -47,6 +50,8 @@
     margin: 0;
     padding: 0;
     height: 100vh;
+    
+    
     
 }
 .opcion2{
@@ -91,12 +96,6 @@
   height: 100vh;
   margin: 0 auto; 
   padding: 20px;
-  /*box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;*/
 }
 
 .button-link {
